@@ -38,12 +38,19 @@ public class MatrizSimetrica {
         }
         
         // si en algún momento se da: t[i][j]!=t[j][i] es que la matriz 
-        //no es simétrica.
+        // no es simétrica.
         // si al llegar aquí y la variable simétrica vale true, indica que no 
-        // hemos encontrado ningún valor que indique que la matriz no es simétrica.
+        // hemos encontrado ningún valor que indique que la matriz no es 
+        // simétrica.
         if(simetrica)
             System.out.println("SIMETRICA");
         else
             System.out.println("NO ES SIMETRICA");
     }
 }
+
+
+
+
+
+
