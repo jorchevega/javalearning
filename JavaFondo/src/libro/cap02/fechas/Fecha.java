@@ -39,9 +39,27 @@ public class Fecha {
         this.anio = anio;
     }
 
+    @Override
     public String toString(){
         return dia+"/"+mes+"/"+anio;
     }
     
+    @Override
+    public boolean equals(Object o){
+        Fecha otra = (Fecha) o;
+        return (dia==otra.dia) && (mes==otra.mes) && (anio==otra.anio);
+    }
+
+    // Constructor
+    public Fecha(int d, int m, int a){
+        this.dia = d;
+        this.mes = m;
+        this.anio = a;
+    }
+    
+    // Constructor sin argumentos
+    public Fecha(){
+        
+    }
     
 }
